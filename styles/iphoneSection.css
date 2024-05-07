@@ -1,0 +1,9 @@
+.iphoneSection {
+    width: 100%;
+    height: 690px;
+    background-color: black;
+    background-image: url(/cache/iphonesbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 12px;
+}

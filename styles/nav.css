@@ -1,0 +1,49 @@
+.navigation {
+    position: sticky;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+}
+
+.navList {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+}
+
+#appleIco {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+#headerContent {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 12px;
+}
+
+.searchButtonNav {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.shopButtonNav {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    margin-left: 14px;
+}
+
+.navButton {
+    padding-left: 16px;
+    margin-left: 19px;
+    text-decoration: none;
+    color: #323232;
+}
