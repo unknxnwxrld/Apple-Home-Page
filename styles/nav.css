@@ -19,6 +19,11 @@
     height: inherit;
     display: flex;
     align-items: center;
+
+}
+
+ #appleIco:hover {
+    fill: #DA4567;
 }
 
 #headerContent {
