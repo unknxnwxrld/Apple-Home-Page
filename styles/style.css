@@ -2,6 +2,7 @@
 @import "eventSection.css";
 @import "iphoneSection.css";
 @import "visionSection.css";
+@import "saleCards.css";
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;

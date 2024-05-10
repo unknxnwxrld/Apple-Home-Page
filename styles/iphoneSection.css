@@ -23,6 +23,7 @@
     margin: 0px;
     margin-top: 47px;
     margin-bottom: 14px;
+    font-weight: bold;
 }
 
 #iPhoneTextline {
@@ -52,6 +53,11 @@
     border-color: #0071e3;
 }
 
+#iPhone15ExploreBtn:hover {
+    background-color: #0071e3;
+    transition: 0.2s;
+}
+
 #iPhone15ProExploreBtn {
     cursor: pointer;
     text-decoration: none;
@@ -67,4 +73,9 @@
     border-width: 1px;
     border-style: solid;
     border-color: #0071e3;
+}
+
+#iPhone15ProExploreBtn:hover {
+    background-color: #0071e3;
+    transition: all 0.2s;
 }

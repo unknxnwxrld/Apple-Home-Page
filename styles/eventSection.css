@@ -19,6 +19,7 @@
     margin: 0px;
     padding-top: 476px;
     font-size: 56px;
+    font-weight: bold;
 }
 
 #watchOnline {
@@ -39,4 +40,9 @@
     width: fit-content;
     margin-top: 19px;
     display: inline-block;
+}
+
+.learnMoreBtn:hover {
+    background-color: #0064c7;
+    transition: 0.2s;
 }

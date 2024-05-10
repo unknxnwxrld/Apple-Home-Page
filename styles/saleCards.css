@@ -1,0 +1,146 @@
+.firstLayer {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.card {
+    height: 580px;
+    width: 50%;
+}
+
+#macBookCard {
+    background-image: url(../cache/macBookAirBg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#watchCard {
+    background-image: url(../cache/watchCardBg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.secondLayer {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+#iPadCard {
+    background-image: url(../cache/iPadCardBg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#airPodsCard {
+    background-image: url(../cache/airPodsCardBg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.thirdLayer {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+#cardCard {
+    background-image: url(../cache/cardCardBg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tradeCard {
+    background-image: url(../cache/tradeCardBg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 53px;
+}
+
+.cardTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cardTextLine {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 4px;
+    display: flex;
+    font-size: 21px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardButtons {
+    margin: 0px;
+    margin-top: 4px;
+}
+
+.cardLearnMore {
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    width: fit-content;
+    display: inline-block;
+    color: white;
+    background-color: #0071e3;
+}
+
+.cardLearnMore:hover {
+    background-color: #0064c7;
+    transition: 0.2s;
+}
+
+.cardBuy {
+    cursor: pointer;
+    text-decoration: none;
+    color: #0071e3;
+    border-radius: 25px;
+    background-color: transparent;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    width: fit-content;
+    display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0071e3;
+}
+
+.cardBuy:hover {
+    background-color: #0071e3;
+    color: white;
+    transition: 0.2s;
+}
+
+#cardTextLine {
+    text-align: center;
+}
+
+#tradeTextLine {
+    text-align: center;
+}

@@ -4,6 +4,7 @@
     background-image: url(../cache/visipnprobg.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    margin-bottom: 12px;
 }
 
 .visionContent {
@@ -22,6 +23,7 @@
     color: white;
     font-size: 56px;
     margin: 0px;
+    font-weight: bold;
 }
 
 #visionTextLineContent {
@@ -48,6 +50,11 @@
     display: inline-block;
 }
 
+#visionLearnMore:hover {
+    background-color: #bbbbbb;
+    transition: 0.2s;
+}
+
 #visionBuy {
     cursor: pointer;
     text-decoration: none;
@@ -63,4 +70,10 @@
     border-width: 1px;
     border-style: solid;
     border-color: white;
+}
+
+#visionBuy:hover {
+    background-color: white;
+    color: black;
+    transition: 0.2s;
 }
