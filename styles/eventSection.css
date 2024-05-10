@@ -12,11 +12,11 @@
 
 .appleEventText {
     text-align: center;
-    margin: 0px;
+    margin: 0;
 }
 
 #appleEvent {
-    margin: 0px;
+    margin: 0;
     padding-top: 476px;
     font-size: 56px;
     font-weight: bold;
@@ -24,7 +24,7 @@
 
 #watchOnline {
     margin-top: 6px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .learnMoreBtn {
@@ -33,10 +33,7 @@
     color: white;
     border-radius: 25px;
     background-color: #0071e3;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 22px;
-    padding-right: 22px;
+    padding: 12px 22px;
     width: fit-content;
     margin-top: 19px;
     display: inline-block;

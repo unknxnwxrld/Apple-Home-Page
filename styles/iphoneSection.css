@@ -14,38 +14,33 @@
     flex-direction: column;
     width: 100%;
     text-align: center;
-    margin: 0px;
+    margin: 0;
 }
 
 #iPhoneTitle {
     color: white;
     font-size: 56px;
-    margin: 0px;
-    margin-top: 47px;
-    margin-bottom: 14px;
+    margin: 47px 0 14px;
     font-weight: bold;
 }
 
-#iPhoneTextline {
+#iPhoneTextLine {
     color: white;
     font-size: 28px;
-    margin: 0px;
+    margin: 0;
 }
 
 .iPhoneButtonsContainer {
     margin-top: 19px;
 }
 
-#iPhone15ExploreBtn {
+.iPhone15Btn {
     cursor: pointer;
     text-decoration: none;
     color: white;
     border-radius: 25px;
     background-color: black;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 22px;
-    padding-right: 22px;
+    padding: 12px 22px;
     width: fit-content;
     display: inline-block;
     border-width: 1px;
@@ -53,29 +48,7 @@
     border-color: #0071e3;
 }
 
-#iPhone15ExploreBtn:hover {
+.iPhone15Btn:hover {
     background-color: #0071e3;
     transition: 0.2s;
-}
-
-#iPhone15ProExploreBtn {
-    cursor: pointer;
-    text-decoration: none;
-    color: white;
-    border-radius: 25px;
-    background-color: black;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 22px;
-    padding-right: 22px;
-    width: fit-content;
-    display: inline-block;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #0071e3;
-}
-
-#iPhone15ProExploreBtn:hover {
-    background-color: #0071e3;
-    transition: all 0.2s;
 }
