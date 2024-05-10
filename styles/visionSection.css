@@ -15,7 +15,7 @@
 }
 
 #visionTitile {
-    display: flex;
+    /*display: flex;*/
     margin-top: 662px;
 }
 
@@ -24,6 +24,7 @@
     font-size: 56px;
     margin: 0px;
     font-weight: bold;
+    width: 100%;
 }
 
 #visionTextLineContent {
