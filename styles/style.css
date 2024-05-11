@@ -3,6 +3,7 @@
 @import "iphoneSection.css";
 @import "visionSection.css";
 @import "saleCards.css";
+@import "footer.css";
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;

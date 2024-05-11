@@ -1,4 +1,4 @@
-.firstLayer {
+.cardLayer {
     display: flex;
     margin-bottom: 12px;
 }
@@ -23,11 +23,6 @@
     color: white;
 }
 
-.secondLayer {
-    display: flex;
-    margin-bottom: 12px;
-}
-
 #iPadCard {
     background-image: url(../cache/iPadCardBg.jpg);
     background-position: center;
@@ -41,11 +36,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-}
-
-.thirdLayer {
-    display: flex;
-    margin-bottom: 12px;
 }
 
 #cardCard {
@@ -76,7 +66,7 @@
     align-items: center;
     margin: 0;
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 550;
 }
 
 .cardTextLine {
@@ -135,4 +125,8 @@
 
 #tradeTextLine {
     text-align: center;
+}
+
+#thirdCardsLayer {
+    margin-bottom: 56px;
 }
