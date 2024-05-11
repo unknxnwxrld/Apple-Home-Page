@@ -20,7 +20,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: var(--white-text-color);
 }
 
 #iPadCard {
@@ -35,7 +35,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: var(--white-text-color);
 }
 
 #cardCard {
@@ -90,19 +90,18 @@
     padding: 12px 22px;
     width: fit-content;
     display: inline-block;
-    color: white;
-    background-color: #0071e3;
+    color: var(--white-text-color);
+    background-color: var(--blue-button-color);
 }
 
 .cardLearnMore:hover {
-    background-color: #0064c7;
-    transition: 0.2s;
+    background-color: var(--blue-button-hovered-color);
 }
 
 .cardBuy {
     cursor: pointer;
     text-decoration: none;
-    color: #0071e3;
+    color: var(--blue-button-color);
     border-radius: 25px;
     background-color: transparent;
     padding: 12px 22px;
@@ -110,13 +109,12 @@
     display: inline-block;
     border-width: 1px;
     border-style: solid;
-    border-color: #0071e3;
+    border-color: var(--blue-button-color);
 }
 
 .cardBuy:hover {
-    background-color: #0071e3;
-    color: white;
-    transition: 0.2s;
+    background-color: var(--blue-button-hovered-color);
+    color: var(--white-text-color);
 }
 
 #cardTextLine {

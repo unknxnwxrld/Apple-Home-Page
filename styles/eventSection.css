@@ -7,7 +7,6 @@
     background-position: center;
     background-repeat: no-repeat;
     margin-bottom: 12px;
-
 }
 
 .appleEventText {
@@ -30,9 +29,9 @@
 .learnMoreBtn {
     cursor: pointer;
     text-decoration: none;
-    color: white;
+    color: var(--white-text-color);
     border-radius: 25px;
-    background-color: #0071e3;
+    background-color: var(--blue-button-color);
     padding: 12px 22px;
     width: fit-content;
     margin-top: 19px;
@@ -40,6 +39,5 @@
 }
 
 .learnMoreBtn:hover {
-    background-color: #0064c7;
-    transition: 0.2s;
+    background-color: var(--blue-button-hovered-color);
 }

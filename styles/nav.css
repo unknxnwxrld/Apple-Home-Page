@@ -3,7 +3,7 @@
     top: 0;
     width: 100%;
     height: 44px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--nav-bg-color);
     backdrop-filter: blur(5px);
 }
 
@@ -18,12 +18,12 @@
     height: inherit;
     display: flex;
     align-items: center;
-    fill: #bbbbbb;
+    fill: var(--nav-button-color);
 }
 
  #appleIco:hover {
-     fill: white;
-     transition: 0.2s;
+     fill: var(--nav-button-hovered-color);
+     transition: .32s;
 }
 
 #headerContent {
@@ -39,34 +39,27 @@
     align-items: center;
 }
 
-.shopButtonNav {
-    height: inherit;
-    display: flex;
-    align-items: center;
-    margin-left: 14px;
-}
-
 .navButton {
     padding-left: 16px;
     margin-left: 19px;
     text-decoration: none;
-    color: #d9d9da;
+    color: var(--nav-button-color);
     height: 10px;
 }
 
 .navButton:hover {
-    color: white;
-    fill: white;
+    color: var(--nav-button-hovered-color);
+    fill: var(--nav-button-hovered-color);
     transition: 0.2s;
 }
 
 #search-nav-button {
     display: flex;
     align-items: center;
-    fill: #bbbbbb;
+    fill: var(--nav-button-color);
 }
 
 #search-nav-button:hover {
-    fill: white;
-    transition: 0.2s;
+    fill: var(--nav-button-hovered-color);
+    transition: .2s;
 }

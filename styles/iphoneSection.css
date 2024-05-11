@@ -1,7 +1,7 @@
 .iphoneSection {
     width: 100%;
     height: 690px;
-    background-color: black;
+    background-color: var(--iphone-section-bg-color);
     background-image: url(../cache/iphonesbg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -18,14 +18,14 @@
 }
 
 #iPhoneTitle {
-    color: white;
+    color: var(--white-text-color);
     font-size: 56px;
     margin: 47px 0 14px;
     font-weight: 550;
 }
 
 #iPhoneTextLine {
-    color: white;
+    color: var(--white-text-color);
     font-size: 28px;
     margin: 0;
 }
@@ -45,10 +45,10 @@
     display: inline-block;
     border-width: 1px;
     border-style: solid;
-    border-color: #0071e3;
+    border-color: var(--blue-button-color);
 }
 
 .iPhone15Btn:hover {
-    background-color: #0071e3;
+    background-color: var(--blue-button-hovered-color);
     transition: 0.2s;
 }
