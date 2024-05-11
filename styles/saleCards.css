@@ -1,4 +1,4 @@
-.cardLayer {
+.card-layer {
     display: flex;
     margin-bottom: 12px;
 }
@@ -8,14 +8,14 @@
     width: 50%;
 }
 
-#macBookCard {
+#macbook-card {
     background-image: url(../cache/macBookAirBg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#watchCard {
+#watch-card {
     background-image: url(../cache/watchCardBg.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -23,14 +23,14 @@
     color: var(--white-text-color);
 }
 
-#iPadCard {
+#ipad-card {
     background-image: url(../cache/iPadCardBg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#airPodsCard {
+#airpods-card {
     background-image: url(../cache/airPodsCardBg.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -38,21 +38,21 @@
     color: var(--white-text-color);
 }
 
-#cardCard {
+#card-card {
     background-image: url(../cache/cardCardBg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#tradeCard {
+#trade-card {
     background-image: url(../cache/tradeCardBg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.cardContent {
+.card-content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,7 @@
     padding-top: 53px;
 }
 
-.cardTitle {
+.card-title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,7 +69,7 @@
     font-weight: 550;
 }
 
-.cardTextLine {
+.card-text-line {
     padding: 0;
     margin: 4px 0 0;
     display: flex;
@@ -78,11 +78,11 @@
     align-items: center;
 }
 
-.cardButtons {
+.card-buttons {
     margin: 4px 0 0;
 }
 
-.cardLearnMore {
+.card-learn-more-button {
     cursor: pointer;
     text-decoration: none;
     border-radius: 25px;
@@ -94,11 +94,11 @@
     background-color: var(--blue-button-color);
 }
 
-.cardLearnMore:hover {
+.card-learn-more-button:hover {
     background-color: var(--blue-button-hovered-color);
 }
 
-.cardBuy {
+.card-buy {
     cursor: pointer;
     text-decoration: none;
     color: var(--blue-button-color);
@@ -112,19 +112,19 @@
     border-color: var(--blue-button-color);
 }
 
-.cardBuy:hover {
+.card-buy:hover {
     background-color: var(--blue-button-hovered-color);
     color: var(--white-text-color);
 }
 
-#cardTextLine {
+#card-text-line {
     text-align: center;
 }
 
-#tradeTextLine {
+#trade-text-line {
     text-align: center;
 }
 
-#thirdCardsLayer {
+#third-cards-layer {
     margin-bottom: 56px;
 }

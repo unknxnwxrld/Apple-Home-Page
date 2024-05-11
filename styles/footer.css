@@ -3,7 +3,7 @@ footer {
     border-top: 1px solid var(--footer-br-color);
 }
 
-.footerContent {
+.footer-content {
     display: flex;
     flex-direction: column;
     width: 980px;
@@ -17,17 +17,18 @@ footer {
     border-bottom: 1px solid;
     border-color: var(--footer-border-color);
     padding-bottom: 22px;
+    line-height: 20px;
 }
 
 #last-p-footer {
     margin-bottom: 0;
 }
 
-#supportFooterLink {
+#support-footer-link {
     color: var(--footer-link-color);
 }
 
-.footerColumnsList {
+.footer-columns-list {
     border-top: 1px;
     border-color: var(--footer-border-color);
     display: flex;
@@ -35,40 +36,40 @@ footer {
     font-size: 12px;
 }
 
-.footerList {
+.footer-list {
     list-style-type: none;
     padding-left: 0;
 }
 
-.footerListBottom {
+.footer-list-bottom {
     list-style-type: none;
     padding-left: 0;
     margin-top: 24px;
 }
 
-.footerColumn {
+.footer-column {
     width: 176px;
 }
 
-.footerColumnListTitle {
+.footer-column-list-title {
     font-weight: 550;
 }
 
-.footerColumnListText {
+.footer-column-list-text {
     color: var(--footer-list-text-color);
     margin-block: 10px;
 }
 
-#footerFirstColumnSecList {
+#footer-first-column-sec-list {
     margin-top: 24px;
 }
 
-.footerLink {
+.footer-link {
     text-decoration: none;
     color: var(--footer-list-text-color);
 }
 
-.footerLink:hover {
+.footer-link:hover {
     text-decoration: underline;
 }
 

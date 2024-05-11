@@ -7,26 +7,26 @@
     backdrop-filter: blur(5px);
 }
 
-.navList {
+.nav-list {
     display: flex;
     list-style-type: none;
     align-items: center;
     padding: 0;
 }
 
-#appleIco {
+#apple-ico {
     height: inherit;
     display: flex;
     align-items: center;
     fill: var(--nav-button-color);
 }
 
- #appleIco:hover {
+ #apple-ico:hover {
      fill: var(--nav-button-hovered-color);
      transition: .32s;
 }
 
-#headerContent {
+#header-content {
     align-items: center;
     justify-content: center;
     display: flex;
@@ -39,7 +39,7 @@
     align-items: center;
 }
 
-.navButton {
+.nav-button {
     padding-left: 16px;
     margin-left: 19px;
     text-decoration: none;
@@ -47,7 +47,7 @@
     height: 10px;
 }
 
-.navButton:hover {
+.nav-button:hover {
     color: var(--nav-button-hovered-color);
     fill: var(--nav-button-hovered-color);
     transition: 0.2s;

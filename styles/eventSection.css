@@ -1,4 +1,4 @@
-.eventSection {
+.event-section {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -9,24 +9,24 @@
     margin-bottom: 12px;
 }
 
-.appleEventText {
+.apple-event-text {
     text-align: center;
     margin: 0;
 }
 
-#appleEvent {
+#apple-event {
     margin: 0;
     padding-top: 476px;
     font-size: 56px;
     font-weight: 550;
 }
 
-#watchOnline {
+#watch-online {
     margin-top: 6px;
     margin-bottom: 0;
 }
 
-.learnMoreBtn {
+.learn-more-button {
     cursor: pointer;
     text-decoration: none;
     color: var(--white-text-color);
@@ -38,6 +38,6 @@
     display: inline-block;
 }
 
-.learnMoreBtn:hover {
+.learn-more-button:hover {
     background-color: var(--blue-button-hovered-color);
 }
